@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="download.png"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            
+        </ul>
+    </nav>
+
+   
+      <div class="content">   
+    
+    <div class="container">
+        <div class="songList"></div>
+        <h1> Best of Shubham's playlist</h1>
+        <div class="songItemcontainer">
+            <div class="songItem">
+                <img src="download.jpg" alt="1">
+                <span class="songName">Saiyaan</span>
+                <span class="songListPlay"><span class="timestamp">05:46     <i id="0" class="songItemPlay fas fa-play-circle fa-2x"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="download (1).jpg" alt="1">
+                <span class="songName">Luka- Chuppi</span>
+                <span class="songListPlay"><span class="timestamp">06:36     <i id="1" class="songItemPlay fas fa-play-circle fa-2x"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="download (4).jpg" alt="1">
+                <span class="songName">Duaa</span>
+                <span class="songListPlay"><span class="timestamp">04:20     <i id="2" class="songItemPlay fas fa-play-circle fa-2x"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="download (3).jpg" alt="1">
+                <span class="songName">Mitwaa</span>
+                <span class="songListPlay"><span class="timestamp">06:47     <i id="3" class="songItemPlay fas fa-play-circle fa-2x"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="download (5).jpg" alt="1">
+                <span class="songName">Pal-Pal har pal</span>
+                <span class="songListPlay"><span class="timestamp">04:33     <i id="4" class="songItemPlay fas fa-play-circle fa-2x"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="download (2).jpg" alt="1">
+                <span class="songName">Thik Hai</span>
+                <span class="songListPlay"><span class="timestamp">04:05     <i id="5" class="songItemPlay fas fa-play-circle fa-2x"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="download (6).jpg" alt="1">
+                <span class="songName">Night Changes</span>
+                <span class="songListPlay"><span class="timestamp">04:00     <i id="6" class="songItemPlay fas fa-play-circle fa-2x"></i></span> </span>
+            </div>
+            <div class="songItem">
+                <img src="download (7).jpg" alt="1">
+                <span class="songName">Stereo Hearts</span>
+                <span class="songListPlay"><span class="timestamp">03:36     <i id="7" class="songItemPlay fas fa-play-circle fa-2x"></i></span> </span>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div><span class="chatbot">
+        <h3 id="ResponseText">Hi! I'm Bablu!</h3>
+    <input id="InputBox" type="text" placeholder="Type to Talk..." onkeydown="IsEnter()" autofocus></span>
+      </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressbar" min="0" value="0" max="100" >
+        <div class="icons">
+           <!---- Fontawesome icons--->
+           <i  class="fas fa-3x fa-step-forward" id="next"></i>
+           <i  class="far fa-3x fa-play-circle" id="masterPlay"></i>
+           <i  class="fas fa-3x fa-step-backward" id="previous"></i>
+        </div>
+        <div class="songInfo">
+            <img src="5uwq.gif" width="42px" alt="" id="gif"><span class="songTitle">    Saiyaan- Kailash Kher</span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+</body>
+</html>

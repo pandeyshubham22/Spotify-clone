@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Ubuntu&display=swap');
+
+body {
+    background: linear-gradient(to right, #1db954, #121212);
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background: #121212;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+nav ul li {
+    padding: 0 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+    color: #1db954;
+    cursor: pointer;
+}
+
+.brand img {
+    width: 60px;
+    padding: 0 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #1db954;
+}
+
+.container {
+    min-height: 75vh;
+    background: linear-gradient(to bottom, rgba(18, 18, 18, 0.95), rgba(0, 0, 0, 0.9)), 
+                url('alexandre-st-louis-IlfpKwRMln0-unsplash.jpg') no-repeat center center/cover;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: 23px auto;
+    width: 75%;
+    border-radius: 20px;
+    padding: 35px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.bottom {
+    position: sticky;
+    height: 88px;
+    background: #181818;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.icons {
+    margin-top: 12px;
+}
+
+.icons i {
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #1db954;
+    margin: 0 8px;
+    transition: transform 0.2s ease;
+}
+
+.icons i:hover {
+    transform: scale(1.2);
+    color: #1ed760;
+}
+
+#myProgressbar {
+    width: 80vw;
+    cursor: pointer;
+    accent-color: #1db954;
+}
+
+.songItemcontainer {
+    margin-top: 74px;
+}
+
+.songItem {
+    height: 48px;
+    display: flex;
+    background: #282828;
+    color: white;
+    width: 45%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    transition: all 0.3s ease;
+    padding: 0 10px;
+}
+
+.songItem:hover {
+    border: 2px solid #1db954;
+    background: #1c1c1c;
+}
+
+.songItem img {
+    width: 42px;
+    margin: 0 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(29, 185, 84, 0.5);
+}
+
+.timestamp {
+    margin: 0 20px;
+}
+
+.timestamp i {
+    cursor: pointer;
+    color: #1db954;
+}
+
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.95rem;
+}
+
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+#InputBox {
+    text-align: center;
+    width: 16vw;
+    height: 9vh;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: #2a2a2a;
+    color: white;
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(29, 185, 84, 0.6);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chatbot {
+    margin-top: 25px;
+    margin-left: 12px;
+    margin-right: -10px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
